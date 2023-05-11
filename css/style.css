@@ -1,9 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .header{
     background-color: green;
     height: 200px;
     display: block;
     position: relative;
-    border-radius: 25px;
+    border-radius: 0px 0px 25px 25px;
     width: 100%
 }
 .title1{
@@ -44,7 +48,7 @@
     padding: 20px;
     background-color: green;
     color: white;
-    border-radius: 25px;
+    border-radius: 25px 25px 0px 0px;
     
 }
 .aa{
