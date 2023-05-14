@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: url(./img/png/cs.png),move;
+}
+@font-face{
+    src: url(./Urbanist.ttf);
+    font-family: Urbanist sans-serif;
+}
+.header-h1{
+    font-family: Urbanist sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    top: 0px;
+    background-color: orange;
+    position: sticky;
+    box-shadow: var(--shadow-elevation-high);
+}
+.title-nav{
+    width: auto;
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+.s-botton{
+    background-color: rgb(224, 224, 224);
+    border-radius: 25px;
+    display: inline-block;
+    list-style-type: none;
+    box-shadow: var(--shadow-elevation-high);
+    margin: 5px;
+}
+.s-botton a{
+    padding: 20px;
+    text-decoration-line: none;
+    color: black;
+    display: block;
+    height: 100%;
+    font-family: Urbanist sans-serif;
+}
+.space{
+    width: auto;
+    height: 20px;
+}
+:root {
+    --shadow-color: 0deg 0% 0%;
+    --shadow-elevation-low:
+      0px 0.5px 0.6px hsl(var(--shadow-color) / 0.06),
+      -0.1px 1.6px 2px -1.6px hsl(var(--shadow-color) / 0.1);
+    --shadow-elevation-medium:
+      0px 0.5px 0.6px hsl(var(--shadow-color) / 0.06),
+      -0.2px 2.3px 2.9px -0.8px hsl(var(--shadow-color) / 0.08),
+      -0.6px 7.8px 9.9px -1.6px hsl(var(--shadow-color) / 0.1);
+    --shadow-elevation-high:
+      0px 0.5px 0.6px hsl(var(--shadow-color) / 0.08),
+      -0.4px 4.9px 6.2px -0.5px hsl(var(--shadow-color) / 0.1),
+      -1px 12.6px 15.9px -1.1px hsl(var(--shadow-color) / 0.12),
+      -2.4px 30px 37.9px -1.6px hsl(var(--shadow-color) / 0.15);
+  }
+  .hnbn{
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: var(--shadow-elevation-high);
+    border-radius: 25px;
+    width: 70%;
+    margin-top: 50px;
+    margin-top: 50px;
+    background-color: white;
+  }
+  body{
+    background-color: rgb(255, 224, 168);
+  }
+  .fotter{
+    background-color: orange;
+    width: auto;
+    height: 150px;
+    box-shadow: var(--shadow-elevation-high);
+  }
+  .fot-img{
+    box-shadow: var(--shadow-elevation-high);
+    border-radius: 100px;
+    top: 20px;
+    left: 20px;
+    position: relative;
+    text-shadow: var(--shadow-elevation-high);
+  }
