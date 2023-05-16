@@ -6,6 +6,7 @@
 @font-face{
     src: url(./Urbanist.ttf);
     font-family: Urbanist sans-serif;
+    font-display: swap;
 }
 .header-h1{
     font-family: Urbanist sans-serif;
