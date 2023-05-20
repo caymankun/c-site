@@ -33,6 +33,12 @@
     list-style-type: none;
     box-shadow: var(--shadow-elevation-high);
     margin: 5px;
+    transition: 200ms;
+}
+.s-botton:hover {
+    box-shadow: var(--shadow-elevation-high) inset;
+    transform: translate(0px,5px);
+    transition: 200ms;
 }
 .s-botton a{
     padding: 20px;
