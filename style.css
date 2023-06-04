@@ -4,42 +4,61 @@
     cursor: url(./img/png/cs.png),auto;
 }
 @font-face{
-    src: url(./Urbanist.ttf);
-    font-family: Urbanist sans-serif;
-    font-display: swap;
+  src: url(./Urbanist.ttf);
+  font-family: Urbanist sans-serif;
+  font-display: swap;
+}
+@font-face{
+  src: url(./MonomaniacOne.ttf);
+  font-family: 'Monomaniac One', sans-serif;
+  font-display: swap;
+}
+.start{
+  font-family: 'Monomaniac One', sans-serif;
+  height: 150px;
+  width: auto;
+  padding: 50px;
+  border: solid 3px red;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+.up{
+  text-align: center;
+  font-family: 'Monomaniac One', sans-serif;
+}
+.dn{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Monomaniac One', sans-serif;
 }
 .header-h1{
     font-family: Urbanist sans-serif;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     top: 0px;
-    background-color: orange;
+    border: solid 3px orange;
+    background-color: rgba(255, 166, 0, 0.8);
     position: sticky;
-    box-shadow: var(--shadow-elevation-high);
     z-index: 22222;
 }
 .title-nav{
     width: auto;
-    background-color: orange;
     text-align: center;
     padding: 20px;
 }
 
 .s-botton{
-    background-color: rgb(224, 224, 224);
-    border-radius: 25px;
+    border: solid 3px yellow;
     display: inline-block;
     list-style-type: none;
-    box-shadow: var(--shadow-elevation-high);
     margin: 5px;
     transition: 200ms;
 }
 .s-botton:hover {
-    box-shadow: var(--shadow-elevation-high) inset;
     transform: translate(0px,5px);
     transition: 200ms;
+    border: solid 3px red;
 }
 .s-botton a{
     padding: 20px;
@@ -70,29 +89,33 @@
   }
   .hnbn{
     margin: 0 auto;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    box-shadow: var(--shadow-elevation-high);
-    border-radius: 25px;
     width: 70%;
     margin-top: 50px;
     margin-top: 50px;
-    background-color: white;
+    border: solid 3px yellow;
+    background-color: rgba(255, 255, 0, 0.6);
   }
-  body{
-    background-color: rgb(255, 224, 168);
+  .hnbn p,b{
+    font-family: Urbanist sans-serif;
   }
   .fotter{
-    background-color: orange;
-    width: auto;
+    border: solid 3px yellowgreen;
+    background-color: rgba(153, 205, 50, 0.6);
     height: 150px;
-    box-shadow: var(--shadow-elevation-high);
+    margin: 0 auto;
+    width: 90vw;
+    margin-bottom: 20px;
   }
   .fot-img{
-    box-shadow: var(--shadow-elevation-high);
     border-radius: 100px;
-    top: 20px;
-    left: 20px;
+    bottom: -61px;
     position: relative;
-    text-shadow: var(--shadow-elevation-high);
+    left: 10px;
+  }
+  .fot-title{
+    font-family: Urbanist sans-serif;
+    text-align: right;
+    padding: 20px;
   }
