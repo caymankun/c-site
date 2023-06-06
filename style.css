@@ -30,6 +30,13 @@
   margin-top: 20px;
   font-family: 'Monomaniac One', sans-serif;
 }
+.cse{
+    background-color:#FF9800;
+    padding: 3px;
+}
+.cke{
+
+}
 .header-h1{
     font-family: Urbanist sans-serif;
     font-weight: 500;
@@ -39,7 +46,7 @@
     top: 0px;
     position: sticky;
     z-index: 22222;
-    background: linear-gradient(135deg, #7700ff 0%, #dd00ff 100%);
+     background: linear-gradient(135deg, #00e5ff 0%, #dd00ff 100%);
     background-size: 200% 200%;
     animation: gradationAnim 2s ease infinite;
 }
@@ -121,11 +128,11 @@
     padding: 20px;
   }
 /*
-background: linear-gradient(135deg, #7700ff 0%, #dd00ff 100%);
+ background: linear-gradient(135deg, #00e5ff 0%, #dd00ff 100%);
     background-size: 200% 200%;
     animation: gradationAnim 2s ease infinite;
 */
-    background: linear-gradient(135deg, #7700ff 0%, #dd00ff 100%);
+    background: linear-gradient(135deg, #00e5ff 0%, #dd00ff 100%);
     background-size: 200% 200%;
     animation: gradationAnim 2s ease infinite;
 @keyframes gradationAnim {
