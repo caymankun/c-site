@@ -38,7 +38,10 @@
         </h3>
     </div>
     <h1 class="header-h1">
+        <b id="demo4"></b>
+        <p>
             c-site
+        </p>
     </h1>
         <div class="title-nav">
             <h2>
@@ -131,4 +134,20 @@
                 <h2 class="fot-title">c-site</h2>
         </div>
 </body>
+    <script>
+        function realtime2() {
+var now = new Date();
+var y = now.getFullYear();
+var m = now.getMonth() + 1;
+var d = now.getDate();
+var w = now.getDay();
+var wd = ['日', '月', '火', '水', '木', '金', '土'];
+var h = now.getHours();
+var mi = now.getMinutes();
+var s = now.getSeconds();
+target = document.getElementById('demo4');
+target.innerHTML = y + '年' + m + '月' + d + '日' + h + '時' + mi + '分' + s + '秒' + '(' + wd[w] + ')';
+}
+setInterval('realtime2()',1000);
+    </script>
 </html>
