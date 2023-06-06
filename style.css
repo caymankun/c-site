@@ -37,8 +37,7 @@
     text-align: end;
     padding: 5px;
     top: 0px;
-    border: solid 3px orange;
-  background-color: linear-gradient(90deg, #ff0000 0%, #ffdd00 100%);
+  background: linear-gradient(90deg, #ff0000 0%, #ffdd00 100%);
     position: sticky;
     z-index: 22222;
     
