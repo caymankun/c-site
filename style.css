@@ -45,6 +45,7 @@ background: orange;
     text-align: end;
     padding: 5px;
     top: 0px;
+    height: 25px;
     position: sticky;
     z-index: 22222;
      background: linear-gradient(135deg, #00e5ff 0%, #dd00ff 100%);
