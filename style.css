@@ -19,9 +19,7 @@
   width: auto;
   padding: 50px;
   border: solid 3px orange;
-    background: linear-gradient(135deg, #7700ff 0%, #dd00ff 100%);
-    background-size: 200% 200%;
-    animation: gradationAnim 2s ease infinite;
+  background-color:#ffa500b5;
 }
 .up{
   text-align: center;
