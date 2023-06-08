@@ -34,8 +34,7 @@
     background: orange;
     display: inline-block;
     text-align: center;
-    height: 22.5px;
-    width: 50px;
+    padding: 3px;
 }
 .cke{
 background: orange;
