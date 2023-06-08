@@ -134,9 +134,6 @@ background: orange;
     background-size: 200% 200%;
     animation: gradationAnim 2s ease infinite;
 */
-    background: linear-gradient(135deg, #00e5ff 0%, #dd00ff 100%);
-    background-size: 200% 200%;
-    animation: gradationAnim 2s ease infinite;
 @keyframes gradationAnim {
     0% { background-position: 0% 50% }
     50% { background-position: 100% 50% }
