@@ -32,14 +32,17 @@
 }
 .cse{
     background: orange;
-    padding: 3px;
+    display: inline-block;
+    text-align: center;
+    height: 22.5px;
+    width: 50px;
 }
 .cke{
 background: orange;
-    padding: 1px;
     width: 240px;
     display: inline-block;
     text-align: center;
+    height: 22.5px;
 }
 .header-h1{
     font-family: Urbanist sans-serif;
