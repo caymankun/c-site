@@ -73,10 +73,12 @@ background: orange;
     display: inline-block;
     list-style-type: none;
     margin: 5px;
+    background-color: #ffa5009e;
 }
 .s-botton:hover {
     transform: translate(0px,3px);
     border: solid 3px red;
+    background-color: #ff00009e;
 }
 .s-botton a{
     padding: 20px;
