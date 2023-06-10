@@ -73,11 +73,9 @@ background: orange;
     display: inline-block;
     list-style-type: none;
     margin: 5px;
-    transition: 200ms;
 }
 .s-botton:hover {
-    transform: translate(0px,5px);
-    transition: 200ms;
+    transform: translate(0px,3px);
     border: solid 3px red;
 }
 .s-botton a{
