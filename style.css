@@ -81,6 +81,7 @@ background: orange;
 .s-botton:active{
     background-color: #ff00009e;
     transform: translate(0px,3px);
+    border: solid 3px red;
 }
 .s-botton a{
     padding: 20px;
